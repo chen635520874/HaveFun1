@@ -1,0 +1,11 @@
+<litepal>
+    <dbname value = "HavaFun"/>
+
+    <version value = "1.0"/>
+
+    <list>
+        <mapping class = "com.example.chen.havefun.db.Province"/>
+        <mapping class = "com.example.chen.havefun.db.City"/>
+        <mapping class = "com.example.chen.havefun.db.County"/>
+    </list>
+</litepal>

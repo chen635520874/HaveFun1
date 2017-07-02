@@ -16,7 +16,7 @@ import java.util.List;
 
 import fragment.HomeFragment;
 import fragment.MineFragment;
-import fragment.ShiCiQuanFragment;
+import fragment.Weather;
 import fragment.WenKuFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         Tab home = new Tab(R.string.home,R.drawable.selector_icon_home, HomeFragment.class);
         Tab wenku = new Tab(R.string.wenku,R.drawable.selector_icon_siciquan, WenKuFragment.class);
-        Tab shiciquan = new Tab(R.string.shiciquan,R.drawable.selector_icon_wenku, ShiCiQuanFragment.class);
+        Tab shiciquan = new Tab(R.string.weather,R.drawable.selector_icon_weather, Weather.class);
         Tab mine = new Tab(R.string.mine,R.drawable.selector_icon_mine, MineFragment.class);
 
         mTabs.add(home);
