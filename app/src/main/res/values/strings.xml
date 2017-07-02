@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HaveFun</string>
+
+    <string name="home">首页</string>
+    <string name="mine">我的</string>
+    <string name="wenku">文库</string>
+    <string name="shiciquan">诗词圈</string>
+
+</resources>
